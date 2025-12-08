@@ -241,3 +241,68 @@ INSERT INTO ataque (id_profemon, nombre, descripcion)
 VALUES (12, "Permiso para el baño", "Klara bloquea el paso con una mirada fulminante. Su lado de agua empieza a hervir violentamente debido a la furia de su lado de fuego, creando una nube de vapor hirviendo alrededor de ella. Con voz tranquila pero aterradora, pregunta: '¿Quién te ha dejado salir?'");
 INSERT INTO ataque (id_profemon, nombre, descripcion)
 VALUES (12, "Voy a hacerme un café", "Klara ignora completamente al rival por un turno. Genera agua pura con su mano azul y la hierve instantáneamente con su mano de fuego, sintetizando un café expreso de alta concentración en segundos. Se lo bebe de un trago con una mirada de satisfacción.");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (1, 1, "Carlos", "modelo/imagenes/gen1/carlos/carlos_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (1, 2, "Evolución", "modelo/imagenes/gen1/carlos/carlos_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (1, 3, "Forma final", "modelo/imagenes/gen1/carlos/carlos_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (2, 1, "Klara", "modelo/imagenes/gen1/klara/klara_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (2, 2, "Evolución", "modelo/imagenes/gen1/klara/klara_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (2, 3, "Forma final", "modelo/imagenes/gen1/klara/klara_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (3, 1, "Final", "modelo/imagenes/gen1/final/final_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (3, 2, "Evolución", "modelo/imagenes/gen1/final/final_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (3, 3, "Forma final", "modelo/imagenes/gen1/final/final_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (4, 1, "Dani Dani", "modelo/imagenes/gen1/dani/dani_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (4, 2, "Evolución", "modelo/imagenes/gen1/dani/dani_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (4, 3, "Forma final", "modelo/imagenes/gen1/dani/dani_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (5, 2, "Marta", "modelo/imagenes/gen1/marta/marta_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (6, 1, "Raquel", "modelo/imagenes/gen1/raquel/raquel_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (6, 2, "Evolución", "modelo/imagenes/gen1/raquel/raquel_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (6, 3, "Forma final", "modelo/imagenes/gen1/raquel/raquel_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (7, 1, "Antonio", "modelo/imagenes/gen2/antonio/antonio_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (7, 2, "Evolución", "modelo/imagenes/gen2/antonio/antonio_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (7, 3, "Forma final", "modelo/imagenes/gen2/antonio/antonio_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (8, 1, "Cipriano", "modelo/imagenes/gen2/cipri/cipri_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (8, 2, "Evolución", "modelo/imagenes/gen2/cipri/cipri_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (8, 3, "Forma final", "modelo/imagenes/gen2/cipri/cipri_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (9, 1, "Sergio", "modelo/imagenes/gen2/sergio/sergio_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (9, 2, "Evolución", "modelo/imagenes/gen2/sergio/sergio_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (9, 3, "Forma final", "modelo/imagenes/gen2/sergio/sergio_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (10, 1, "Marina", "modelo/imagenes/gen2/marina/marina_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (10, 2, "Evolución", "modelo/imagenes/gen2/marina/marina_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (10, 3, "Forma final", "modelo/imagenes/gen2/marina/marina_fase3.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (11, 1, "Samuel", "modelo/imagenes/gen2/samu/samu_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (12, 1, "Klara", "modelo/imagenes/gen1/klara/klara_fase1.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (12, 2, "Evolución", "modelo/imagenes/gen1/klara/klara_fase2.png");
+INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
+VALUES (12, 3, "Forma final", "modelo/imagenes/gen1/klara/klara_fase3.png");
+
