@@ -10,8 +10,40 @@
         <?php include("header.php") ?>
         
         <main>
-            <h1><?php echo $nombre ?></h1>
+            <div>
+                <h1><?php echo $nombre ?></h1>
+            </div>
 
+            <div>
+                <img src="<?php echo $portada["evolucion"] ?>" alt="<?php echo $portada["nombre"] ?>">
+            </div>
+
+            <div>
+                <p><?php echo $descripcion ?></p>
+            </div>
+            
+            <hr>
+            
+            <div>
+                <h1>Biologia</h1>
+            </div>
+
+            <div>
+                <p><?php echo $biologia ?></p>
+            </div>
+
+            <div class="evoluciones_titulo">
+                <h1>Evoluciones</h1>
+            </div>
+
+            <div class="evoluciones">
+                <?php foreach ($evoluciones as $evo) {?>
+                    <div class="<?php echo $evo["numero"] ?>">
+                        <img src="<?php echo $evo["evolucion"] ?>" alt="<?php echo $evo['nombre'] ?>">
+                        <p><?php echo $evo['nombre'] ?></p>
+                    </div>
+                <?php } ?>
+            </div>
         </main>
 
         <?php include("footer.php") ?>

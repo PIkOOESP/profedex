@@ -13,7 +13,6 @@ class Controlador{
             $profemon = new Profemon($l['id']);
             array_push($portada, $profemon -> primeraEvolucion());
         }
-        var_dump($portada);
         include(__DIR__."/../vista/menuGen.php");
     }
 
@@ -25,12 +24,12 @@ class Controlador{
             $profemon = new Profemon($l['id']);
             array_push($portada, $profemon -> primeraEvolucion());
         }
-        var_dump($portada);
         include(__DIR__."/../vista/menuGen.php");
     }
 
     public static function pagProf($id){
         $profemon = new Profemon($id);
+        $portada = $profemon -> primeraEvolucion();
         $evoluciones = $profemon ->listaEvoluciones();
         $ataques = $profemon -> listaAtaques();
         $frases = $profemon -> listaFrases();

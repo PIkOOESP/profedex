@@ -63,7 +63,7 @@ class Profemon{
     public function listaEvoluciones(){
         $pdo = Conexion::conectar();
 
-        $stmt = $pdo -> prepare("SELECT nombre, evolucion from evolucion where id_profemon = :id");
+        $stmt = $pdo -> prepare("SELECT nombre, evolucion, numero from evolucion where id_profemon = :id");
 
         $stmt -> execute([
             ":id" => $this -> id
