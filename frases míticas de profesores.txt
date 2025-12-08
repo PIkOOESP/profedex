@@ -1,0 +1,68 @@
+frases míticas de profesores: 
+
+Dani Dani/agua
+frases - "Unas pipsasss", "¿Que empalo?", "Pero que malditos tenni"
+Linea evolutiva - "Antonio, dani dani, Richard Matthew Stallman."
+Ataques - "¿pregunta a antonio?" - sube 50ps . "Cabezazo zen" - 80 de damage. "nitido" - recupera 30 ps
+habilidad - ignorante
+
+Final/dragón/fuego
+frases - "Aaaacho tío", "Un furbo", "No me lieis" 
+linea evolutiva - "Machop, final, la roca,"
+Ataques - "POO" - Aturdimento - "ponerse capucha" - aumenta 3 puntos de daño - "patocracia" - fulminante
+habilidad - "me voy" - frase: el curso se quedó a medias.
+
+Marta/psiquico
+frases - "in english please", "Good afternoon"
+linea evolutiva - diccionario ingles - "marta"
+Ataques - "reading" - "speaking" - "listening" - "writing" 
+habilidad - "solo de batería" - invoca a "mañana no hay clase"
+
+Raquel/tierra
+frases - "cerrar los portátiles", "silencio los convalidados", "¿habéis visto mi mesa?", "hoy no me e tomado el cafe"
+linea evolutiva - "Raquel" , "Antonio"
+Ataques - "Cambio de sitio" - huye/acaba el combate - "caramelos de café" - otorga vida 30ps - "nómina" - fulminante
+habilidad - esporas somníferas
+
+Carlos/eléctrico(legendario)
+frase - "no te voy a redondear el botón", "me cachis en marketing", "historia de abuelo cebolleta"
+Ataques - "consultas" - aturde - "pagina de la ONU" - fulminante - "velocidad extrema" - daño 30 ps 
+habilidad - persuasión 
+
+klara/fuego/agua
+=======
+frases - "yo pongo los partes de 3 en 3", "no voy a dar el examen", "yo aprendí el foros", "hoy blooker"
+Ataques - "Examen sorpresa" - daño 30ps - "Permiso del baño" - fulminante - "Voy a hacerme un cafe" - Quemadura
+habilidad - presion -
+
+
+Segunda generacion
+
+Antonio/Planta
+frases - "Voy a jugar al padel", "Yo soy portero en una peña de futbol", "Motril"
+ataques padel+cerveza "20 daño" -- fichas de la unidad 4 "10 daño" -- examen dificil "10 cura"
+habilidad - Mano celestial -
+
+
+Cipriano/veneno
+frases "Hoy vamos a hacer una api-Rest", "Se os levanta?", "Vale"
+ataques examen sorpresa "30 daño" -- PosgreSQL "70 daño" -- practica express "30 daño"
+habilidad - rapidez
+
+
+Sergio/acero
+frases "Venga que os dispersais", "Chicos, estoy al lado y no lo escucho", "Panaderia sin nombre, panaderia que no corrijo"
+ataques css "10 daño" -- refranero español "50 de daño o 50 de vida" -- "Palante-Patras" 30 daño
+habilidad - restauracion -
+
+
+Marina/volador
+frases "Perdon, perdon", "gracias, gracias"
+ataques modelo, vista, controlador "fulminante" - view "prepara el siguiente ataque" - index "sale a la pagina principal"
+habilidad - cuerpo llama
+
+
+Samuel/normal
+frases ""
+ataques "Leer PowerPoint" 
+habilidad "teletransporte"

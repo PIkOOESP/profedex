@@ -1,0 +1,147 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profedex_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #ff1c1c, #ff7b00);
+}
+
+.logo_area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo:hover{
+    animation-name: logoAnim;
+    animation-duration: 1s;
+}
+
+@keyframes logoAnim{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+.header_titulo {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+main{
+    background-image: url("https://iesantoniohellin.es/wp-content/uploads/2025/05/IES-ANTONIO-HELLIN-COSTA-768x300.jpg");
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botones_gen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botones_gen a{
+    font-size: 300px;
+    text-decoration: none;
+    color: white;
+}
+
+.boton_gen1{
+    background-image:url("../modelo/imagenes/gen1/gen1.jpeg");
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton_gen2{
+    background-image: url("../modelo/imagenes/gen2/gen2.jpeg");
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton_gen1:hover, .boton_gen2:hover, .boton_all:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 15px 2px rgba(0,0,0,0.47)
+}
+
+.boton_all{
+    background-image:url("../modelo/imagenes/allGen.jpeg");
+    background-size: cover;
+    width: 800px;
+    height: 300px;
+    font-size: 80px;
+    border-radius: 20px;
+}
+
+.botones_all{
+    margin-top: 100px;
+}
+
+.botones_all a {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background: linear-gradient(90deg, #ff1c1c, #ff7b00);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li{
+    margin-bottom: 5px;
+}
+
