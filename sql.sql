@@ -165,6 +165,16 @@ VALUES
  'Samu es el Profemón más enigmático de la facultad. Nadie sabe dónde vive ni qué hace en su tiempo libre, aunque la medalla de oro que siempre lleva al cuello sugiere que es campeón de algún deporte que la humanidad aún no conoce. Explica Python con tal velocidad que los alumnos no saben si ha escrito el código en la pizarra o simplemente lo ha hecho aparecer con la mente.',
  2 
 );
+INSERT INTO profemon (nombre, tipo, habilidad_nombre, habilidad_descripcion, biologia, descripcion, id_generacion)
+VALUES 
+('Klara',
+ 'Fuego/Agua',
+ 'Presión',
+ 'Klara libera una densa nube de vapor ardiente mientras mira fijamente al rival y le pregunta: ''¿Has pedido permiso para ir al baño?''. Efecto: El ambiente se vuelve pesado e irrespirable (como un día de humedad en Mazarrón). El rival se siente tan agobiado por la presión de la fecha de entrega que su Velocidad baja drásticamente y pierde turnos por ''ansiedad de compilación''.',
+ 'Su cuerpo funciona como un sistema de refrigeración líquida viviente. El lado naranja procesa datos a velocidades cuánticas, generando un calor inmenso, mientras que el lado azul hace circular fluidos helados para evitar el colapso del sistema. Se alimenta de ''cookies'' de navegador y de la humedad de la brisa marina.',
+ 'Klara es la única criatura capaz de programar bajo el sol de agosto en Mazarrón sin sudar. Se dice que el código que escribe con su mano de fuego es tan eficiente que, si no lo enfría rápidamente con su mano de agua, el papel o la pantalla se derretirían al instante. Sus alumnos saben que si su llama brilla mucho, es que ha encontrado un bug difícil.',
+ 1
+);
 INSERT INTO ataque (id_profemon, nombre, descripcion)
 VALUES (1, "Consultas", "Carlos se ajusta las gafas con severidad, abre su libro de golpe y proyecta en el aire una pizarra holográfica llena de ejercicios complejos (JOINs anidados, subconsultas imposibles...). Mira fijamente al rival y le dice con voz tronadora: 'Sacad una hoja. Quiero estas veinte consultas resueltas y optimizadas... ¡YA!'");
 INSERT INTO ataque (id_profemon, nombre, descripcion)
@@ -225,3 +235,9 @@ INSERT INTO ataque (id_profemon, nombre, descripcion)
 VALUES (10, "View", "Marina despliega sus alas de golpe y proyecta una luz cegadora que 'renderiza' instantáneamente el campo de batalla con una interfaz visual perfecta. El brillo es tan intenso que deslumbra al rival, quemándole con el calor residual del servidor mientras le muestra lo único que importa: el resultado final que ve el usuario.");
 INSERT INTO ataque (id_profemon, nombre, descripcion)
 VALUES (11, "Paciencia", "Samu frena en seco su frenético ritmo habitual y se cruza de brazos con una calma sobrenatural, cerrando los ojos tras sus gafas. Su figura se vuelve semitransparente y la realidad parece ralentizarse a su alrededor, obligando al rival a esperar desesperadamente a que el profesor 'aparezca' o se materialice de nuevo, consumiendo su energía atacando al aire mientras Samu simplemente... no está.");
+INSERT INTO ataque (id_profemon, nombre, descripcion)
+VALUES (12, "Examen sorpresa", "Klara junta sus manos de fuego y agua con una palmada fuerte que suena como un portazo. De repente, una densa niebla de vapor cubre el campo de batalla y, de la nada, empiezan a llover hojas de examen ardiendo y mojadas sobre la cabeza del oponente.");
+INSERT INTO ataque (id_profemon, nombre, descripcion)
+VALUES (12, "Permiso para el baño", "Klara bloquea el paso con una mirada fulminante. Su lado de agua empieza a hervir violentamente debido a la furia de su lado de fuego, creando una nube de vapor hirviendo alrededor de ella. Con voz tranquila pero aterradora, pregunta: '¿Quién te ha dejado salir?'");
+INSERT INTO ataque (id_profemon, nombre, descripcion)
+VALUES (12, "Voy a hacerme un café", "Klara ignora completamente al rival por un turno. Genera agua pura con su mano azul y la hierve instantáneamente con su mano de fuego, sintetizando un café expreso de alta concentración en segundos. Se lo bebe de un trago con una mirada de satisfacción.");
