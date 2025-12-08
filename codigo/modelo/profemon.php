@@ -69,7 +69,7 @@ class Profemon{
             ":id" => $this -> id
         ]);
 
-        return $stmt ->fetch(PDO::FETCH_ASSOC);
+        return $stmt ->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public function primeraEvolucion(){
@@ -81,7 +81,7 @@ class Profemon{
             ":id" => $this -> id
         ]);
 
-        return $stmt ->fetch(PDO::FETCH_ASSOC);
+        return $stmt ->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public static function listarProfemon($gen){
@@ -101,6 +101,6 @@ class Profemon{
 
         $stmt -> execute();
 
-        return $stmt ->fetch(PDO::FETCH_ASSOC);
+        return $stmt ->fetchAll(PDO::FETCH_ASSOC);
     }
 }
