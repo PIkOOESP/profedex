@@ -308,4 +308,43 @@ INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
 VALUES (12, 2, "Evolución", "modelo/imagenes/gen1/klara/klara_fase2.png");
 INSERT INTO evolucion (id_profemon, numero, nombre, evolucion)
 VALUES (12, 3, "Forma final", "modelo/imagenes/gen1/klara/klara_fase3.png");
-
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (1, "1", "modelo/audio/gen1/carlos/carlos1.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (1, "2", "modelo/audio/gen1/carlos/carlos2.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (1, "3", "modelo/audio/gen1/carlos/carlos3.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (1, "4", "modelo/audio/gen1/carlos/carlos4.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (2, "1", "modelo/audio/gen1/klara/klara1.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (2, "2", "modelo/audio/gen1/klara/klara2.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (2, "3", "modelo/audio/gen1/klara/klara3.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (2, "4", "modelo/audio/gen1/klara/klara4.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (3, "1", "modelo/audio/gen1/final/final1.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (3, "2", "modelo/audio/gen1/final/final2.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (3, "3", "modelo/audio/gen1/final/final3.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (3, "4", "modelo/audio/gen1/final/final4.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (5, "1", "modelo/audio/gen1/marta/marta1.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (5, "2", "modelo/audio/gen1/marta/marta2.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (5, "3", "modelo/audio/gen1/marta/marta1.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (5, "4", "modelo/audio/gen1/marta/marta2.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (6, "1", "modelo/audio/gen1/raquel/raquel1.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (6, "2", "modelo/audio/gen1/raquel/raquel2.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (6, "3", "modelo/audio/gen1/raquel/raquel3.ogg");
+INSERT INTO frase (id_profemon, nombre, frase)
+VALUES (6, "4", "modelo/audio/gen1/raquel/raquel4.ogg");
