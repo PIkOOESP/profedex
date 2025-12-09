@@ -355,7 +355,7 @@ VALUES (9, "2", "modelo/audio/gen2/sergio/sergio2.ogg");
 INSERT INTO frase (id_profemon, nombre, frase)
 VALUES (9, "3", "modelo/audio/gen2/sergio/sergio3.ogg");
 INSERT INTO frase (id_profemon, nombre, frase)
-VALUES (9, "4", "modelo/audio/gen2/sergio/sergio3.ogg");
+VALUES (9, "4", "modelo/audio/gen2/sergio/sergio4.ogg");
 INSERT INTO frase (id_profemon, nombre, frase)
 VALUES (8, "1", "modelo/audio/gen2/cipri/cipri1.ogg");
 INSERT INTO frase (id_profemon, nombre, frase)
@@ -372,4 +372,3 @@ INSERT INTO frase (id_profemon, nombre, frase)
 VALUES (12, "3", "modelo/audio/gen1/klara/klara3.ogg");
 INSERT INTO frase (id_profemon, nombre, frase)
 VALUES (12, "4", "modelo/audio/gen1/klara/klara4.ogg");
-
